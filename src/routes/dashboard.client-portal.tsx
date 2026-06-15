@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, MessageSquare, ImageIcon } from "lucide-react";
 
-export const Route = createFileRoute("/dashboard/client")({
+export const Route = createFileRoute("/dashboard/client-portal")({
   head: () => ({ meta: [{ title: "Client Dashboard — GrowthForce" }] }),
   component: ClientDashboard,
 });
