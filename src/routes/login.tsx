@@ -20,7 +20,7 @@ function LoginPage() {
   const submit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     toast.success("Welcome back");
-    nav({ to: role === "client" ? "/dashboard/client" : role === "field" ? "/dashboard/field" : role === "supervisor" ? "/dashboard/supervisor" : "/dashboard/admin" });
+    nav({ to: role === "client" ? "/dashboard/client-portal" : role === "field" ? "/dashboard/field" : role === "supervisor" ? "/dashboard/supervisor" : "/dashboard/admin" });
   };
   return (
     <SiteLayout>

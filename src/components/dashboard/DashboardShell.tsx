@@ -27,11 +27,11 @@ const NAVS: Record<string, { title: string; items: Item[] }> = {
   client: {
     title: "Client",
     items: [
-      { to: "/dashboard/client", label: "Overview", icon: LayoutDashboard },
-      { to: "/dashboard/client", label: "Active Campaigns", icon: Megaphone },
-      { to: "/dashboard/client", label: "Leads", icon: Target },
-      { to: "/dashboard/client", label: "Reports", icon: FileBarChart },
-      { to: "/dashboard/client", label: "Messages", icon: Bell },
+      { to: "/dashboard/client-portal", label: "Overview", icon: LayoutDashboard },
+      { to: "/dashboard/client-portal", label: "Active Campaigns", icon: Megaphone },
+      { to: "/dashboard/client-portal", label: "Leads", icon: Target },
+      { to: "/dashboard/client-portal", label: "Reports", icon: FileBarChart },
+      { to: "/dashboard/client-portal", label: "Messages", icon: Bell },
     ],
   },
   field: {
