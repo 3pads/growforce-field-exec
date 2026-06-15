@@ -13,7 +13,7 @@ export function DashboardIndexFallback() {
         <div className="mt-6 grid gap-3">
           {[
             { to: "/dashboard/admin", label: "Admin Dashboard" },
-            { to: "/dashboard/client", label: "Client Dashboard" },
+            { to: "/dashboard/client-portal", label: "Client Dashboard" },
             { to: "/dashboard/field", label: "Field Associate" },
             { to: "/dashboard/supervisor", label: "Supervisor" },
           ].map((l) => (
