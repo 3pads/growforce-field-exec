@@ -1,0 +1,9 @@
+Options -MultiViews
+RewriteEngine On
+
+# Don't rewrite real files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Send all other requests to index.html for client-side routing
+RewriteRule ^ index.html [QSA,L]
